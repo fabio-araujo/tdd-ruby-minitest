@@ -5,7 +5,7 @@ class Carrinho
         @produtos = []
     end
 
-    def adiciona_produto(produto)
+    def <<(produto)
         @produtos << produto
     end
 end
